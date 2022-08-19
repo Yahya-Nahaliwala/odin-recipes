@@ -1,0 +1,40 @@
+body{
+      background-color: #effaf6;
+}
+
+#heading{
+      font-size: 48px;
+      text-align: center;
+}
+
+.intro{
+      font-size: 24px;
+}
+
+.recipes{
+      font-size: 16px;
+      background-color: #fed361;
+      text-decoration: none;
+      color: black;
+}
+
+.image{
+      text-align: center;
+      width:600px;
+      height:600px;
+}
+#desc,
+#ingredients,
+#steps{
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
+      
+}
+
+li:not(:first-of-type) {
+      padding-top: 0.5em;
+  }
+
+  li:not(:last-of-type) {
+      padding-bottom: 0.5em;
+  }
